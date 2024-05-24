@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Resetovanje stilova */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Glavni kontejner za sve elemente */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: top;
+    min-height: 100vh;
+    background: url(sl1.jpg) no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px); /* Dodajemo blur efekat na pozadinu */
+}
+
+/* Stil za zaglavlje */
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin-right: 20px;
+}
+
+/* Stil za formu */
+.form-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+}
+
+.form-container input[type="text"] {
+    width: 200px;
+    margin-right: 10px;
+}
+
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    padding: 0% 10px;
+     
+}
+
+.table-container table {
+    width: calc(100% - 20px);
+    border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+.button-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container input[type="button"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-container input[type="button"]:hover {
+    background-color: #45a049;
+}
+.dodavanje_igraca{
+    text-align: center;
+    color: white;
+}
+.stranice {
+    font-size: 40px;
+    color: blue;
+}
+.sve {
+    font-size: 30px;
+}
+.dugme_dodaj {
+    font-size: 30px;
+    width: 100px;
+}
+
+.vrh {
+    font-size: 30px;
+    color: blue;
+    text-decoration: underline;
+    padding: 20px 180px; 
+    text-align: center;
+    color: white;
+}
+
+table {
+    color: white;
+
+}
+.poc {
+    font-size: 30px;
+    color: blue;
+    text-decoration: underline;
+    color: white;
+}
+.dodaj {
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.dod_tim {
+    color: white;
+}
